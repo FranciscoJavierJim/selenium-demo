@@ -29,7 +29,6 @@ Este es un proyecto de prueba que utiliza **Selenium WebDriver** con **Java** y 
 
 1. Clona el repositorio:
 
-````text
 git clone https://github.com/TU-USUARIO/selenium-demo.git
 cd selenium-demo
 
