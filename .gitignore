@@ -1,0 +1,14 @@
+# Archivos compilados de Java
+target/
+*.class
+
+# Archivos de configuración del IDE
+.vscode/
+.idea/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# WebDriverManager cache
+.cache/
