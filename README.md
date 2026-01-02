@@ -6,22 +6,22 @@ Este es un proyecto de prueba que utiliza **Selenium WebDriver** con **Java** y 
 
 ## Contenido del proyecto
 
-- `src/main/java` → código principal (vacío o ejemplo básico)
+- `src/main/java` → código principal (vacío en este ejemplo)
 - `src/test/java` → pruebas automatizadas con Selenium y JUnit
-  - `AppTest.java` → test de ejemplo simple que siempre pasa
+  - `AppTest.java` → ejemplo de test básico
   - `DuckDuckGoTest.java` → test que abre DuckDuckGo y realiza una búsqueda
-- `pom.xml` → configuración de Maven con dependencias y plugins
+- `pom.xml` → archivo de configuración de Maven con dependencias y plugins
 
 ---
 
 ## Tecnologías utilizadas
 
 - **Java 17**
-- **Maven 4.x**
+- **Maven**
 - **Selenium WebDriver 4.25.0**
 - **JUnit 5.11**
 - **WebDriverManager 5.9.2**
-- Navegador: Google Chrome (Chromedriver gestionado automáticamente)
+- Navegadores: Google Chrome (Chromedriver gestionado automáticamente)
 
 ---
 
@@ -46,3 +46,5 @@ Variables de entorno correctamente configuradas (PATH)
 3. Ejecuta los tests con Maven:
 
 mvn clean test
+
+Esto ejecutará las pruebas y cerrará el navegador automáticamente.
