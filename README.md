@@ -31,7 +31,7 @@ Este es un proyecto de prueba que utiliza **Selenium WebDriver** con **Java** y 
 
 ```bash
 git clone https://github.com/TU-USUARIO/selenium-demo.git
-cd selenium-demo
+cd selenium-demo```**
 
 2. Asegúrate de tener instalados:
 
@@ -45,6 +45,7 @@ Variables de entorno correctamente configuradas (PATH)
 
 3. Ejecuta los tests con Maven:
 
-mvn clean test
+```bash
+mvn clean test```**
 
 Esto ejecutará las pruebas y cerrará el navegador automáticamente.
